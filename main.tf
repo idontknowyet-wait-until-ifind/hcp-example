@@ -16,5 +16,4 @@ provider "hcp" {
 resource "hcp_packer_bucket" "example" {
   project_id   = "your-hcp-project-id"     # Replace with actual project ID
   name         = "my-packer-bucket"
-  description  = "This bucket stores image metadata for Ubuntu builds"
 }
