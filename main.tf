@@ -14,6 +14,6 @@ provider "hcp" {
 }
 
 resource "hcp_packer_bucket" "example" {
-  project_id   = "your-hcp-project-id"     # Replace with actual project ID
+  project_id   = "shilu10-project"     # Replace with actual project ID
   name         = "my-packer-bucket"
 }
